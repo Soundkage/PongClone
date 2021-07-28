@@ -1930,6 +1930,7 @@ GameObject:
   - component: {fileID: 1491851464}
   - component: {fileID: 1491851466}
   - component: {fileID: 1491851467}
+  - component: {fileID: 1491851468}
   m_Layer: 0
   m_Name: RacketPlayer2
   m_TagString: Untagged
@@ -2020,7 +2021,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1491851461}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff3772b6415b2804d967c98461167565, type: 3}
   m_Name: 
@@ -2046,6 +2047,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
+--- !u!114 &1491851468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1491851461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea754e2596e66e24c98c15eb060a8444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 200
+  ball: {fileID: 1035247309}
 --- !u!1 &1646296808
 GameObject:
   m_ObjectHideFlags: 0
